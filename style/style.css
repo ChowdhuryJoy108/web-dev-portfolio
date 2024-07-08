@@ -33,7 +33,7 @@ span{
     background-image: url('../images/developer.png'), url('../images//header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    background-size: 70px 600px, 600px 288px;
+    background-size: 70px 580px, 600px 288px;
     /* border: 1px solid black; */
  
 }
@@ -42,7 +42,7 @@ nav{
     display:  flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 150px;
+    margin: 0 150px;
 }
 
 nav h1{
@@ -192,4 +192,134 @@ nav ul li a{
     font-size: 16px;
     color:#757575;
     text-align: left;
+}
+
+/* resume section styles */
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width:1000px;
+    margin: 0 auto 113px auto;
+}
+
+.resume .resume-intro{
+    font-size: 35px;
+    font-weight: bold;
+}
+.resume .resume-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 71px;
+}
+
+.resume .resume-card .intro{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+
+
+.resume .resume-card .my-educations .education .degree{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: -40px;
+    
+}
+.resume .resume-card .my-educations .education .institution{
+    font-size:20px;
+    font-weight: 600;
+    color: #757575;
+}
+.resume .resume-card .my-experiences .experience .position{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: -40px;
+}
+.resume .resume-card .my-experiences .experience  .company{
+    font-size:20px;
+    font-weight: 600;
+    color: #757575;
+}
+
+
+.resume .resume-card .my-educations .education .education-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.resume .resume-card .my-experiences .experience  .experience-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.resume-btn{
+    font-size: 14px;
+}
+
+
+/* contact section styles */
+
+footer{
+    background-color: #FFF8F3;
+}
+
+.contact-me{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap:200px;
+}
+
+.contact-me .social-links{
+    width: 50%;
+}
+
+.contact-me .contact-form {
+    width: 50%;
+}
+input[type="text"], input[type="email"]{
+    width:350px;
+    padding: 20px;
+    border: none;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 350px;
+    padding: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+.submit{
+    font-size: 16px;
+}
+.contact-me .social-links .contact-intro{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.contact-me .social-links .contact-description{
+    font-size: 16px;
+    color: #474747;
+    text-align: left;
+    margin: 40px 0;
+}
+.contact-me .social-links .links a {
+    margin-right: 20px;
+}
+.contact-me .contact-form .form-heading{
+    font-size: 35px;
+    font-weight: bold;
 }
