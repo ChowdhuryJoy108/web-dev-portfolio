@@ -1,0 +1,154 @@
+
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared  styles */
+.btn{
+    background-color: #FD6E0A;
+    width: 150px;
+    height: 54px;
+    color:white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+span{
+    color: #FD6E0A;
+}
+
+
+/* header */
+
+.header{
+    margin: 0 autu;
+    width: 100vw;
+    background-image: url('../images/developer.png'), url('../images//header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 70px 600px, 600px 288px;
+    /* border: 1px solid black; */
+ 
+}
+/* nav section styles */
+nav{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+}
+
+nav h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* banner style */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 25px 0 150px;
+}
+
+.banner-content{
+    width: 585px;
+}
+
+.banner-content .greeting{
+    color: #474747;
+    font-weight: 600;
+}
+.banner-content .name{
+    font-weight: bold;
+    font-size: 50px;
+    color:black
+}
+.banner-content .banner-decription{
+    color: #757575;
+    font-size: 15px;
+}
+.banner-content .banner-btn{
+    margin: 30px 0;
+}
+
+.banner-content .banner-btn button{
+    font-size: 14px;
+    margin-right: 20px;
+}
+.banner-content .banner-btn .contact-btn{
+     background: none;
+     border: 1px solid #FD6E0A;
+     color: #FD6E0A;
+}
+
+/* about style */
+
+.about{
+    background-color: #FFF8F3;
+    width: 1000px;
+    height: 400px;
+    margin: 150px auto 100px auto;
+}
+
+.about .about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+}
+.about .about-info .about-description{
+    color: #757575;
+    font-size: 15px;
+    text-align:center;
+    /* text-align: center; */
+    margin-bottom: 60px;
+}
+
+.about .about-info .about-heading{
+    /* text-align: center; */
+    font-weight: bold;
+}
+.about .about-info .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.about .about-info .contact p{
+    text-align: center;
+}
+.about .about-info .contact .label{
+    color: #757575;
+    font-size: 14px;
+}
+
+.about .about-info .contact strong{
+    font-size: 14px;
+    color: #757575;
+    font-weight: blod;
+}
+
