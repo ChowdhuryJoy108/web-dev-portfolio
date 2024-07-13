@@ -346,6 +346,9 @@ textarea{
     .resume{
         width: 300px;
     }
+    .resume .resume-intro{
+        font-size: 20px;
+    }
     .resume .resume-card{
         flex-direction: column;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
