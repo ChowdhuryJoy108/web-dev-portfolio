@@ -334,28 +334,59 @@ textarea{
     .skills{
         width: 300px;
     }
-    .skill-heading{
+    .skill-heading,
+    .resume .resume-card .my-educations .intro{
         font-size: 25px;
     }
 
     .skill-cards{
         flex-direction: column;
     }
+
+    .resume{
+        width: 300px;
+    }
+    .resume .resume-card{
+        flex-direction: column;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 10px;
+
+    }
+
+    .resume .resume-card .my-educations .education{
+        width: 90%;
+    }
 }
 
-@media screen and (min-width:576px) and (max-width:990px) {
+@media screen and (min-width:576px) and (max-width:992px) {
     .skills{
         width: 600px;
         margin: 0 auto;
     }
-    .skill-heading{
-        font-size: 30px;
+    .skill-heading, .resume-card .my-educations .intro{
+        font-size: 25px;
     }
 
     .skill-cards{
         flex-wrap: wrap;
+        gap: 15px;
     }
     .skill-cards .card{
         width: 200px;
+        padding: 20px;
     }
+    .resume{
+        width: 600px;
+    }
+    .resume .resume-card{
+        flex-wrap: wrap;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 15px;
+    }
+
+    .resume .resume-card .my-educations .education{
+        width: 90%;
+    }
+
+
 }
