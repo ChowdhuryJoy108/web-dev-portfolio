@@ -335,7 +335,8 @@ textarea{
         width: 300px;
     }
     .skill-heading,
-    .resume .resume-card .my-educations .intro{
+    .resume .resume-card .my-educations .intro,
+     .resume .resume-card .my-experiences intro{
         font-size: 25px;
     }
 
@@ -347,7 +348,7 @@ textarea{
         width: 300px;
     }
     .resume .resume-intro{
-        font-size: 20px;
+        font-size: 30px;
     }
     .resume .resume-card{
         flex-direction: column;
@@ -359,6 +360,15 @@ textarea{
     .resume .resume-card .my-educations .education{
         width: 90%;
     }
+    .resume .resume-card .my-educations .education .degree, 
+    .resume .resume-card .my-experiences .experience .position{
+        font-size: 15px;
+        margin-bottom: -18px;
+    }
+    .resume .resume-card .my-educations .education .institution,
+      .resume .resume-card .my-experiences .experience .company{
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
@@ -366,7 +376,9 @@ textarea{
         width: 600px;
         margin: 0 auto;
     }
-    .skill-heading, .resume-card .my-educations .intro{
+    .skill-heading,
+    .resume-card .my-educations .intro,
+    .resume .resume-card .my-experiences .intro{
         font-size: 25px;
     }
 
@@ -381,6 +393,9 @@ textarea{
     .resume{
         width: 600px;
     }
+    .resume .resume-intro{
+        font-size: 30px;
+    }
     .resume .resume-card{
         flex-wrap: wrap;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -391,5 +406,14 @@ textarea{
         width: 90%;
     }
 
+    .resume .resume-card .my-educations .education .degree,
+    .resume .resume-card .my-experiences .experience .position{
+        font-size: 20px;
+        margin-bottom: -20px;
+    }
+    .resume .resume-card .my-educations .education .institution,
+    .resume .resume-card .my-experiences .experience .company{
+        font-size: 15px;
+    }
 
 }
