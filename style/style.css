@@ -331,7 +331,7 @@ textarea{
 }
 
 @media screen and (max-width:576px) {
-    .skills{
+    .skills, .resume, .contact-me{
         width: 300px;
     }
     .skill-heading,
@@ -344,10 +344,7 @@ textarea{
         flex-direction: column;
     }
 
-    .resume{
-        width: 300px;
-    }
-    .resume .resume-intro{
+    .resume .resume-intro,.form-heading{
         font-size: 30px;
     }
     .resume .resume-card{
@@ -369,10 +366,34 @@ textarea{
       .resume .resume-card .my-experiences .experience .company{
         font-size: 10px;
     }
+
+    .contact-me{
+        height: 800px;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+    .contact-me .social-links,
+    .contact-me .contact-form{
+        width: 100%;
+    }
+    .contact-me .contact-form {
+        margin-right: 10px;
+    }
+    input[type="text"], input[type="email"],textarea{
+        width: calc(100% - 10px);
+    }
+    .submit{
+        font-size: 12px;
+        width: 80px;
+        height: 30px;
+    }
+    
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    .skills{
+    .skills, .resume, .contact-me{
         width: 600px;
         margin: 0 auto;
     }
@@ -389,9 +410,6 @@ textarea{
     .skill-cards .card{
         width: 200px;
         padding: 20px;
-    }
-    .resume{
-        width: 600px;
     }
     .resume .resume-intro{
         font-size: 30px;
